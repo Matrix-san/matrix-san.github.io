@@ -1,12 +1,3 @@
-.person {
-    border: 1px solid lime;
-}
-#main{
-    font-weight: bold;
-}
-span {
-  color: red; 
-}
-.card .photo {
-    border: 1px solid black;
+li {
+    color: blue;
 }
