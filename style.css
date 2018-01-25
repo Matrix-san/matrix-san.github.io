@@ -1,7 +1,7 @@
 .apltop {
     width: 100%; height: 45px; background: black; 
     color: white;
-    position: fixed;
+    position: fixed; top: 0; left: 0;
 }
 .ipx1 {
     margin: 150px 0 0 400px;
