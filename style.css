@@ -17,6 +17,9 @@
 .body1 {
     background: #fafafa;
 }
+.body1 a {
+    text-decoration: none; color: coral;
+}
 .ip81 {
     margin: 150px 0 0 400px;
     width: 300;
