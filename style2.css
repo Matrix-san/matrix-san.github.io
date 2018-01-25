@@ -1,0 +1,49 @@
+* {
+    padding: 0; margin: 0;
+}
+img {
+    border:none;
+}
+body {
+background: #f5f5f5 url(images/body-bg.jpg) top repeat-x;
+font:12px Arial; color: #555555; line-height: 1.3;
+}
+.karkas {
+    width: 753px; margin: 0 auto;
+}
+.header {
+    padding: 40px 0 0 0; margin-bottom: 20px;
+}
+.logo {
+    margin: 0 auto 30px auto; display: block;
+}
+.menu {
+    list-style: none; background: #fff; font-size: 14px; overflow: hidden;
+    border-left: 1px solid #f3f3f3; border-top: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3; border-bottom: 3px solid #959fff;
+}
+.menu li {
+    float: left; border-left: 1px solid #f3f3f3; padding: 8px 32px;
+}
+.menu li a {
+    text-decoration: none; color: #555555;
+}
+.menu li a:hover {
+    color: #959fff;
+}
+.main-content {
+    overflow: hidden;
+}
+.main-content h1 {
+    margin-bottom: 20px;
+}
+.main-content p {
+    margin-bottom: 20px;
+}
+.content-left {
+    background: white; padding: 30px; width: 420px; float: left;
+}
+.content-right {
+    background: white; padding: 30px 10px 35px 25px; width: 228px;
+    float: right;
+}
