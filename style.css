@@ -41,7 +41,7 @@ nav ul{
 }
 
 nav ul li{
-	float:left; padding:8px 30px; border-left:1px solid #f4f4f4;
+	float:left; padding:8px 27px; border-left:1px solid #f4f4f4;
 }
 
 nav ul li:first-child{
@@ -90,5 +90,5 @@ aside h1{
 }
 
 footer{
-	padding-top: 50px; color:#5f5d67;
+	padding-top: 50px; color:#78ad3b;
 }
