@@ -1,0 +1,22 @@
+  * {margin: 0; padding: 0;}
+  div {margin: 50px auto;}
+  .blok1 {
+      width: 400px; height: 267px; background-image: url('img2.png'), url('img1.jpg');
+      background-repeat: no-repeat; background-position: 100% 100%, 100% 100%;
+      }
+  .blok2 {
+    width: 400px; height: 267px; 
+    background: url('img2.png') 100% 100% no-repeat, url('img1.jpg') 100% 100% no-repeat;
+    }
+    .blok3 {
+        width: 400px; height: 267px; 
+        background: 
+        url('img2.png') 100% 100% no-repeat,
+        url('img2.png') 0% 0% no-repeat,
+        url('img1.jpg') 100% 100% no-repeat;
+        }
+    .blok4 {
+        width: 400px; height: 267px; 
+        border: 10px solid #000;
+        background:#ff0000 url('img2.png') no-repeat 100% 100%;
+        }

@@ -1,2 +1,2 @@
-Lesson 1
-1:36:27
+x = input()
+print(x + x)
