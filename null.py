@@ -1,2 +1,2 @@
 x = input()
-print(x + x)
+print(x + x*2)
