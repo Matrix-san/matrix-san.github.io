@@ -1,22 +1,29 @@
   * {margin: 0; padding: 0;}
-  div {margin: 50px auto;}
-  .blok1 {
-      width: 400px; height: 267px; background-image: url('img2.png'), url('img1.jpg');
-      background-repeat: no-repeat; background-position: 100% 100%, 100% 100%;
-      }
-  .blok2 {
-    width: 400px; height: 267px; 
-    background: url('img2.png') 100% 100% no-repeat, url('img1.jpg') 100% 100% no-repeat;
-    }
-    .blok3 {
-        width: 400px; height: 267px; 
-        background: 
-        url('img2.png') 100% 100% no-repeat,
-        url('img2.png') 0% 0% no-repeat,
-        url('img1.jpg') 100% 100% no-repeat;
-        }
-    .blok4 {
-        width: 400px; height: 267px; 
-        border: 10px solid #000;
-        background:#ff0000 url('img2.png') no-repeat 100% 100%;
-        }
+  div {
+    margin:50px auto; 
+    background:#ccc; 
+    width:80%; 
+    height:100px;
+}
+.blok1 {
+    border: 1px solid #000000;
+    background-image: url(img1.jpg); background-size: cover;
+    border-radius: 40px;
+}
+.blok2 {
+    border: 1px solid #000000;
+    border-radius: 20px 50px;
+}
+.blok3 {
+    border: 18px solid #000000;
+    border-radius: 22px;
+    -moz-border-image: url(borderimg.png) 22 repeat round;
+    -webkit-border-image: url(borderimg.png) 22 repeat round;
+    -o-border-image: url(borderimg.png) 22 repeat round;
+    border-image: url(borderimg.png) 22 repeat round;
+    text-align: center;
+}
+.blok4 {
+    background: #ffffff;
+        box-shadow: 0px 0px 15px 5px #fff000, inset 0px 0px 15px 5px #fff000 ;
+}
