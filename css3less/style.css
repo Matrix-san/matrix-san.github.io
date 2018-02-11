@@ -49,3 +49,8 @@
     background-image: -webkit-repeating-linear-gradient(#fff, #000);
     background-image: -ms-linear-gradient(#fff, #000);
 }
+.blok8 {
+    background-image: -moz-repeating-linear-gradient(#fff, #000);
+    background-image: -o-linear-gradient(#fff, #000);
+    background-image: -webkit-repeating-linear-gradient(#fff, #000);
+    background-image: -ms-linear-gradient(#fff, #000);
