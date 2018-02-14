@@ -1,0 +1,56 @@
+/* радиальные градиенты
+Почемуто не работает параметр указания расположения ?% ?%, */
+* {margin:0; padding:0;}
+div {margin: 50px auto; width: 300px; height:150px;}
+.block1 {
+    background: #04f1f1; 
+    -o-background: radial-gradient(#053232, #04f1f1);
+    -webkit-background: radial-gradient(#053232, #04f1f1);
+    -moz-background: radial-gradient(#053232, #04f1f1);
+    background: radial-gradient(#053232, #04f1f1, #ff0000,#0000ff);
+}
+.block2 {
+    background: #04f1f1; 
+    -o-background: radial-gradient(circle, #053232, #04f1f1);
+    -webkit-background: radial-gradient(circle, #053232, #04f1f1);
+    -moz-background: radial-gradient(circle, #053232, #04f1f1);
+    background: radial-gradient(circle, #053232, #04f1f1, #ff0000,#0000ff);
+}
+.block3 {
+    background: #04f1f1; 
+    -o-background: radial-gradient(ellipse, #053232, #04f1f1, #ff0000,#0000ff);
+    -webkit-background: radial-gradient(ellipse, #053232, #04f1f1, #ff0000,#0000ff);
+    -moz-background: radial-gradient(ellipse, #053232, #04f1f1, #ff0000,#0000ff);
+    background: radial-gradient(ellipse, #053232, #04f1f1, #ff0000,#0000ff,#41ff7a);
+}
+.block4 {
+    background: #04f1f1; 
+    -o-background: radial-gradient(ellipse, #053232, #04f1f1, #ff0000,#0000ff);
+    -webkit-background: radial-gradient(ellipse, #053232, #04f1f1, #ff0000,#0000ff);
+    -moz-background: radial-gradient(ellipse, #053232, #04f1f1, #ff0000,#0000ff);
+    background: radial-gradient(ellipse, #053232 10px, #04f1f1 20px, #ff0000 30px,#0000ff 40px,#41ff7a 50px);
+}
+.block5 {
+    background: #04f1f1; 
+    -o-background: radial-gradient(circle, #053232, #04f1f1, #ff0000,#0000ff);
+    -webkit-background: radial-gradient(circle, #053232, #04f1f1, #ff0000,#0000ff);
+    -moz-background: radial-gradient(circle, #053232, #04f1f1, #ff0000,#0000ff);
+    background: radial-gradient(circle, #053232 10px, #04f1f1 20px, #ff0000 30px,#0000ff 40px,#41ff7a 50px);
+}
+.block6 {
+    
+    background: #04f1f1; 
+    -o-background: radial-gradient(circle, #053232, #04f1f1, #ff0000,#0000ff);
+    -webkit-background: radial-gradient(circle, #053232, #04f1f1, #ff0000,#0000ff);
+    -moz-background: radial-gradient(20% 20%, circle, #053232, #04f1f1, #ff0000,#0000ff);
+    background: radial-gradient(20% 20%, circle , #053232 10px, #04f1f1 20px, #ff0000 30px,#0000ff 40px,#41ff7a 50px);
+}
+
+.block7 {
+    
+    background: #04f1f1; 
+    -o-background: radial-gradient(circle, #053232, #04f1f1, #ff0000,#0000ff);
+    -webkit-background: radial-gradient(circle, #053232, #04f1f1, #ff0000,#0000ff);
+    -moz-background: radial-gradient(20% 20%, circle, #053232, #04f1f1, #ff0000,#0000ff);
+    background: radial-gradient(20% 20%, circle , #053232 10px, #04f1f1 20px, #ff0000 30px,#0000ff 40px,#41ff7a 50px);
+}
