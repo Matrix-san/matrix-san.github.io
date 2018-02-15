@@ -53,7 +53,6 @@ span:only-child {
 }
 .ex3 p{
 	margin-bottom: 20px;
-	cellpadding:5px;
 }
 .ex3 h2{
 	font-size: 20px;
@@ -63,4 +62,11 @@ span:only-child {
 	color: #ff0000;
 	text-shadow:0px 0px 5px #00f;
 	
+}
+input:disabled{
+	border:2px dotted #ff0000;
+}
+input:checked + span{
+	color: #ff0000;
+	border: 1px solid #000000;
 }
