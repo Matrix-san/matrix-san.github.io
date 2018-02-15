@@ -47,3 +47,20 @@ span:only-child {
 .tbl tr:nth-child(even){
 	background: #fff;
 }
+.ex3 {
+	font-size: 15px;
+	margin:30px 0;
+}
+.ex3 p{
+	margin-bottom: 20px;
+	cellpadding:5px;
+}
+.ex3 h2{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.ex3 p:nth-of-type(2n){
+	color: #ff0000;
+	text-shadow:0px 0px 5px #00f;
+	
+}
