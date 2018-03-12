@@ -1,0 +1,17 @@
+
+
+body{
+	
+	width:800px;
+	margin: 0 auto;
+}
+
+div{
+	display: block;
+	border:1px solid #000000;
+	border-radius: 10px;
+	padding:20;
+}
+.first{
+padding:20px;
+}
