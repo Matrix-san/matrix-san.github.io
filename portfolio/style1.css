@@ -1,17 +1,27 @@
-
-
 body{
-	
-	width:800px;
-	margin: 0 auto;
+	width:800px;					/* ширина боди */
+	margin: 0 auto;					/* авто выравнивание по ширине страницы */
+	background-color: #7fc9c97c;  /* цвет боди */
 }
+
 
 div{
-	display: block;
-	border:1px solid #000000;
-	border-radius: 10px;
-	padding:20;
+	display: block;					/* перевел в блочный тип все дивы */
+	border:1px solid #7fc9c97c;	  /* рамка одного цвета с фоном боди*/
+	border-radius: 10px;			/* скругление рамки*/
+	padding:20px;					/* внутренний отступ любого элемента в блоке*/
+	margin: 10px 0;					/* внешний отступ сверху/снизу гна 10рх*/
+	background-color: #fff;		  /* своя заливка */
 }
-.first{
-padding:20px;
+
+
+.first a img{						/* только для 1ой картинки*/
+	width: 50px; height: 50px;		/* сжал реал размер к указанному на сайте*/
+	border-radius: 3px;				/* скругление рамки */
+	margin-left: 3px;				/* отступ от рамки блока*/
+	text-decoration: none; 			/* убрал рамку ссылки для IE-подобных браузеров*/
 }
+.second{
+	
+}
+	
