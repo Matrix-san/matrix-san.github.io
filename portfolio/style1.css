@@ -12,6 +12,7 @@ div{
 	padding:20px;					/* внутренний отступ любого элемента в блоке*/
 	margin: 10px 0;					/* внешний отступ сверху/снизу гна 10рх*/
 	background-color: #fff;		  /* своя заливка */
+	text-decoration: none;	  		/* убрал рамку ссылки для IE-подобных браузеров*/
 }
 
 
@@ -19,9 +20,37 @@ div{
 	width: 50px; height: 50px;		/* сжал реал размер к указанному на сайте*/
 	border-radius: 3px;				/* скругление рамки */
 	margin-left: 3px;				/* отступ от рамки блока*/
-	text-decoration: none; 			/* убрал рамку ссылки для IE-подобных браузеров*/
+		
 }
-.second{
+.hrefAK{									/* 1ая ссыль */
+	color:#292D32; 						  /* цвет */
+	font-size:16px; 						/* размер шрифта */
+	text-decoration:none;					/* без фиол подсветки нажатой ссылки */
+	font-family: Helvetica,Arial,sans-serif;/* стиль шрифта */
+}
+.hrefAK:hover{								/* атрибуты при наведении на ссыль*/
+	color: #6066DD;						  /* цвет при наведении */
+}
+.hrefAK2{
+	padding: 5px;							/* небольшой отступ от 1ой ссылки */
+	color:#6D6069; 
+	font-size:14px; 
+	text-decoration:none;
+	font-family: Helvetica,Arial,sans-serif;
+}
+.hrefAK2:hover{	
+	color: #6066DD;
+}
+
+.mos{
+	margin: 8px;							/* пришлось отступить сверху чтоб москва чуть ниже центра */
+	color:#4a4d50; 
+	font-size:12px; 
+	text-decoration:none;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+/*.second{
 	
 }
-	
+*/	
